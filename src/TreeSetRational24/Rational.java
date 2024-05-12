@@ -68,7 +68,6 @@ public class Rational {
      * equal, or 1 if this rational number is greater than the other rational number.
      */
     public int compareTo(Rational other) {
-
         if (this.numerator == other.numerator && this.denominator == other.denominator) {
             return 0;
         } else if (this.numerator * other.denominator < other.numerator * this.denominator) {

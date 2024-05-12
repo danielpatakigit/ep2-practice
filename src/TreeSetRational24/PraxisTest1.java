@@ -34,7 +34,6 @@ public class PraxisTest1 {
         s2.add(r7); // 1/3
         s2.add(r2); // 1/2
         s2.add(r8); // 5/6
-        /*
 
         System.out.println("Test 'countWithinRange' method:");
         testValue(s1.countWithinRange(new Rational(0,1), new Rational(1,1)), 1);
@@ -67,7 +66,7 @@ public class PraxisTest1 {
         testEquals(new TreeSetRational().toString(), "[]");
         testEquals(s1.toString(), "[-3/4, -2/3, -1/3, 1/2]");
         testEquals(s2.toString(), "[1/3, 1/2, 2/3, 5/6]");
-        testEquals(s3.toString(), "[-3/4, -2/3, -1/3, 1/3, 1/2, 2/3, 5/6]");*/
+        testEquals(s3.toString(), "[-3/4, -2/3, -1/3, 1/3, 1/2, 2/3, 5/6]");
 
     }
 

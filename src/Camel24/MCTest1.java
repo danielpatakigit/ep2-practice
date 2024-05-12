@@ -15,29 +15,29 @@ public class MCTest1 {
 
                         new Choice(false, "'this' ist nur in 'final' Konstruktoren verwendbar.                           (1A)"),
                         new Choice(false, "'this' darf in Konstruktoren nicht verwendet werden.                          (1B)"),
-                        new Choice(false, "'this = null;' darf nur als erste Anweisung vorkommen.                        (1C)"),
-                        new Choice(false, "'this' referenziert das Objekt, das gerade initialisiert wird.                (1D)"),
+                        new Choice(true, "'this = null;' darf nur als erste Anweisung vorkommen.                        (1C)"),
+                        new Choice(true, "'this' referenziert das Objekt, das gerade initialisiert wird.                (1D)"),
                         new Choice(false, "Der Wert von 'this' kann nicht 'null' sein.                                   (1E)")
                 ),
 
                 new Question(
                         "e sei eine Variable mit einem einfachen binären Suchbaum (nicht AVL-Baum)\n" +
-                        "ganzer Zahlen, der durch diese Anweisungen aufgebaut wurde:\n" +
+                        "ganzer Zahlen, der durch ditrese Anweisungen aufgebaut wurde:\n" +
                         "    STree e = new STree(); e.add(0); e.add(6); e.add(5);\n" +
                         "Welche der folgenden Aussagen treffen auf e zu?",
 
                         new Choice(false, "Der Knoten mit Wert 6 ist die Wurzel.                                         (2A)"),
-                        new Choice(false, "Der Knoten mit Wert 6 ist Elter von dem mit Wert 5.                           (2B)"),
-                        new Choice(false, "Der Baum ist nicht ausbalanciert.                                             (2C)"),
-                        new Choice(false, "Der Knoten mit Wert 6 hat zumindest ein Kind.                                 (2D)"),
+                        new Choice(true, "Der Knoten mit Wert 6 ist Elter von dem mit Wert 5.                           (2B)"),
+                        new Choice(true, "Der Baum ist nicht ausbalanciert.                                             (2C)"),
+                        new Choice(true, "Der Knoten mit Wert 6 hat zumindest ein Kind.                                 (2D)"),
                         new Choice(false, "Der Knoten mit Wert 0 ist ein Blattknoten.                                    (2E)")
                 ),
 
                 new Question(
                         "X, U und C seien beliebige Referenztypen. Welche der folgenden Aussagen treffen zu?",
 
-                        new Choice(false, "Ist U eine Klasse, dann ist U Untertyp von java.lang.Object.                  (3A)"),
-                        new Choice(false, "Aus 'C ist Klasse' und 'U ist Interface' folgt: 'U ist kein Untertyp von C'.  (3B)"),
+                        new Choice(true, "Ist U eine Klasse, dann ist U Untertyp von java.lang.Object.                  (3A)"),
+                        new Choice(true, "Aus 'C ist Klasse' und 'U ist Interface' folgt: 'U ist kein Untertyp von C'.  (3B)"),
                         new Choice(false, "Aus 'U Untertyp von C' folgt: 'Kommentare in U und C passen zusammen'.        (3C)"),
                         new Choice(false, "Ist X kein Untertyp von java.lang.Object, dann ist X ein Interface.           (3D)"),
                         new Choice(false, "Aus 'U Untertyp von C' und 'C Untertyp von X' folgt: 'U.class==X.class'.      (3E)")
