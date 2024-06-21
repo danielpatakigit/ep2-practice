@@ -5,7 +5,7 @@ public class MCTest1 {
     // Wenn 'answer' in 'new Choice(...)' für davor stehende 'question' zutrifft, 'valid' bitte auf 'true' ändern.
     // Sonst 'valid' auf 'false' belassen.
     // Kommentare wirken sich nicht auf die Beurteilung aus.
-    // Bitte sonst nichts ändern. Zur Kontrolle MCTest1 ausführen.
+    // Bitte sonst nichts ändern. Zur Kontrolle TreeSetPoint23.MCTest1 ausführen.
     public static void main(String[] args) {
         checkAndPrint(
 

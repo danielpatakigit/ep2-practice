@@ -139,12 +139,10 @@ public class TreeSetRational {
       return;
     }
 
-
     // If left child may contain values within the range, traverse left subtree
     if (node.getLeft() != null && node.getValue().compareTo(lowest) >= 0) {
       countWithinRangeRecursive(node.getLeft(), counter, lowest, highest);
     }
-
 
     // If node data is within the range, increment the counter
     if (node.getValue().compareTo(lowest) >= 0 && node.getValue().compareTo(highest) <= 0) {

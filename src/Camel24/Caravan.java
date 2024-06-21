@@ -98,7 +98,7 @@ public class Caravan {
   /**
    * Removes 'number' camels from the front of the caravan (the first 'number'
    * camels seen from the head of the caravan) and returns them as a new caravan in which they
-   * have the same order as they had in 'this' (see examples in 'PraxisTest1.java'). If this
+   * have the same order as they had in 'this' (see examples in 'TreeSetPoint23.PraxisTest1.java'). If this
    * caravan is empty (this.size() == 0) or number == 0 then the result is a new empty caravan.
    * Precondition:
    *
@@ -176,7 +176,6 @@ public class Caravan {
 
       if (current.getNext() != null) {
         sb.append(", ");
-
       }
 
       int maxPace = current.getValue().getMaxPace();

@@ -2,9 +2,9 @@ EP2 Test 1:
 
 1. Multiple-Choice-Aufgabe (maximal 25 Punkte):
 
-    Beantworten Sie die Multiple-Choice-Fragen in der Klasse [MCTest1](src/MCTest1.java).
+    Beantworten Sie die Multiple-Choice-Fragen in der Klasse [TreeSetPoint23.MCTest1](src/MCTest1.java).
 
-    Wenn Sie [MCTest1](src/MCTest1.java) ausführen, bekommen Sie eine Fehlermeldung falls inhaltlich 
+    Wenn Sie [TreeSetPoint23.MCTest1](src/MCTest1.java) ausführen, bekommen Sie eine Fehlermeldung falls inhaltlich 
     relevante Textteile verändert wurden; ohne Fehler werden Ihre Antworten auf die Fragen
     aufgelistet.
 
@@ -25,9 +25,9 @@ EP2 Test 1:
     keine geschachtelten oder (anonymen) inneren Klassen, also keine Klassen, die in einer anderen
     Klasse, einem Objekt oder einer Methode stehen.
 
-    Die Klasse [PraxisTest1](src/PraxisTest1.java) enthält Testfälle mit Sollausgaben als Kommentare.
+    Die Klasse [TreeSetPoint23.PraxisTest1](src/PraxisTest1.java) enthält Testfälle mit Sollausgaben als Kommentare.
     Neben diesen Testfällen müssen auch alle Kommentare in den gefragten Klassen zutreffen.
-    Die Klasse [PraxisTest1](src/PraxisTest1.java) fließt nicht in die Beurteilung ein.
+    Die Klasse [TreeSetPoint23.PraxisTest1](src/PraxisTest1.java) fließt nicht in die Beurteilung ein.
 
     Bei einigen Methoden sind bei den Beschreibungen der Parameter unter `@param` Vorbedingungen
     (_preconditions_) angegeben. Diese Vorbedingungen müssen innerhalb der Methode NICHT

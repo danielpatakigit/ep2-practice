@@ -1,4 +1,4 @@
-// Please, do not change this file!
+package TreeSetPoint23;// Please, do not change this file!
 
 // A class for representing points with integer coordinates in 2D.
 // Please, do not change this class definition.
